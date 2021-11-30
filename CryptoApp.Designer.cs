@@ -142,8 +142,10 @@
             // 
             // output_S
             // 
+            this.output_S.Enabled = false;
             this.output_S.Location = new System.Drawing.Point(78, 196);
             this.output_S.Name = "output_S";
+            this.output_S.ReadOnly = true;
             this.output_S.Size = new System.Drawing.Size(132, 20);
             this.output_S.TabIndex = 3;
             // 
@@ -168,6 +170,7 @@
             // 
             // input_S
             // 
+            this.input_S.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.input_S.Location = new System.Drawing.Point(78, 36);
             this.input_S.Name = "input_S";
             this.input_S.Size = new System.Drawing.Size(132, 20);
@@ -242,6 +245,7 @@
             // 
             this.output_PS.Location = new System.Drawing.Point(78, 196);
             this.output_PS.Name = "output_PS";
+            this.output_PS.ReadOnly = true;
             this.output_PS.Size = new System.Drawing.Size(132, 20);
             this.output_PS.TabIndex = 3;
             // 
@@ -254,6 +258,7 @@
             // 
             // input_PS
             // 
+            this.input_PS.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.input_PS.Location = new System.Drawing.Point(78, 36);
             this.input_PS.Name = "input_PS";
             this.input_PS.Size = new System.Drawing.Size(132, 20);
@@ -323,6 +328,7 @@
             // 
             // input_GF
             // 
+            this.input_GF.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.input_GF.Location = new System.Drawing.Point(78, 36);
             this.input_GF.Name = "input_GF";
             this.input_GF.Size = new System.Drawing.Size(132, 20);
@@ -332,6 +338,7 @@
             // 
             this.output_GF.Location = new System.Drawing.Point(78, 196);
             this.output_GF.Name = "output_GF";
+            this.output_GF.ReadOnly = true;
             this.output_GF.Size = new System.Drawing.Size(132, 20);
             this.output_GF.TabIndex = 3;
             // 
