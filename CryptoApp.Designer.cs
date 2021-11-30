@@ -30,6 +30,14 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TabSkitala = new System.Windows.Forms.TabPage();
+            this.key_S = new System.Windows.Forms.NumericUpDown();
+            this.label2_S = new System.Windows.Forms.Label();
+            this.checkBox_S = new System.Windows.Forms.CheckBox();
+            this.label3_S = new System.Windows.Forms.Label();
+            this.output_S = new System.Windows.Forms.TextBox();
+            this.ButtonSkitala = new System.Windows.Forms.Button();
+            this.label1_S = new System.Windows.Forms.Label();
+            this.input_S = new System.Windows.Forms.TextBox();
             this.TabPolybius = new System.Windows.Forms.TabPage();
             this.checkBox_PS = new System.Windows.Forms.CheckBox();
             this.ButtonPolybius = new System.Windows.Forms.Button();
@@ -48,19 +56,11 @@
             this.input_GF = new System.Windows.Forms.TextBox();
             this.output_GF = new System.Windows.Forms.TextBox();
             this.ButtonGronsfeld = new System.Windows.Forms.Button();
-            this.input_S = new System.Windows.Forms.TextBox();
-            this.label1_S = new System.Windows.Forms.Label();
-            this.ButtonSkitala = new System.Windows.Forms.Button();
-            this.output_S = new System.Windows.Forms.TextBox();
-            this.label3_S = new System.Windows.Forms.Label();
-            this.checkBox_S = new System.Windows.Forms.CheckBox();
-            this.label2_S = new System.Windows.Forms.Label();
-            this.key_S = new System.Windows.Forms.NumericUpDown();
             this.tabControl1.SuspendLayout();
             this.TabSkitala.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.key_S)).BeginInit();
             this.TabPolybius.SuspendLayout();
             this.TabGronsfeld.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.key_S)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -94,6 +94,84 @@
             this.TabSkitala.TabIndex = 0;
             this.TabSkitala.Text = "Скитала";
             this.TabSkitala.UseVisualStyleBackColor = true;
+            // 
+            // key_S
+            // 
+            this.key_S.Location = new System.Drawing.Point(78, 96);
+            this.key_S.Minimum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.key_S.Name = "key_S";
+            this.key_S.Size = new System.Drawing.Size(132, 20);
+            this.key_S.TabIndex = 8;
+            this.key_S.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            // 
+            // label2_S
+            // 
+            this.label2_S.AutoSize = true;
+            this.label2_S.Location = new System.Drawing.Point(78, 76);
+            this.label2_S.Name = "label2_S";
+            this.label2_S.Size = new System.Drawing.Size(123, 13);
+            this.label2_S.TabIndex = 7;
+            this.label2_S.Text = "Введите ключ (ширину)";
+            // 
+            // checkBox_S
+            // 
+            this.checkBox_S.AutoSize = true;
+            this.checkBox_S.Location = new System.Drawing.Point(78, 236);
+            this.checkBox_S.Name = "checkBox_S";
+            this.checkBox_S.Size = new System.Drawing.Size(102, 17);
+            this.checkBox_S.TabIndex = 5;
+            this.checkBox_S.Text = "Расшифровать";
+            this.checkBox_S.UseVisualStyleBackColor = true;
+            // 
+            // label3_S
+            // 
+            this.label3_S.AutoSize = true;
+            this.label3_S.Location = new System.Drawing.Point(78, 176);
+            this.label3_S.Name = "label3_S";
+            this.label3_S.Size = new System.Drawing.Size(59, 13);
+            this.label3_S.TabIndex = 4;
+            this.label3_S.Text = "Результат";
+            // 
+            // output_S
+            // 
+            this.output_S.Location = new System.Drawing.Point(78, 196);
+            this.output_S.Name = "output_S";
+            this.output_S.Size = new System.Drawing.Size(132, 20);
+            this.output_S.TabIndex = 3;
+            // 
+            // ButtonSkitala
+            // 
+            this.ButtonSkitala.Location = new System.Drawing.Point(108, 136);
+            this.ButtonSkitala.Name = "ButtonSkitala";
+            this.ButtonSkitala.Size = new System.Drawing.Size(75, 23);
+            this.ButtonSkitala.TabIndex = 2;
+            this.ButtonSkitala.Text = "Выполнить";
+            this.ButtonSkitala.UseVisualStyleBackColor = true;
+            this.ButtonSkitala.Click += new System.EventHandler(this.ButtonSkitala_Click);
+            // 
+            // label1_S
+            // 
+            this.label1_S.AutoSize = true;
+            this.label1_S.Location = new System.Drawing.Point(78, 16);
+            this.label1_S.Name = "label1_S";
+            this.label1_S.Size = new System.Drawing.Size(80, 13);
+            this.label1_S.TabIndex = 1;
+            this.label1_S.Text = "Введите текст";
+            // 
+            // input_S
+            // 
+            this.input_S.Location = new System.Drawing.Point(78, 36);
+            this.input_S.Name = "input_S";
+            this.input_S.Size = new System.Drawing.Size(132, 20);
+            this.input_S.TabIndex = 0;
             // 
             // TabPolybius
             // 
@@ -267,84 +345,6 @@
             this.ButtonGronsfeld.UseVisualStyleBackColor = true;
             this.ButtonGronsfeld.Click += new System.EventHandler(this.ButtonGronsfeld_Click);
             // 
-            // input_S
-            // 
-            this.input_S.Location = new System.Drawing.Point(78, 36);
-            this.input_S.Name = "input_S";
-            this.input_S.Size = new System.Drawing.Size(132, 20);
-            this.input_S.TabIndex = 0;
-            // 
-            // label1_S
-            // 
-            this.label1_S.AutoSize = true;
-            this.label1_S.Location = new System.Drawing.Point(78, 16);
-            this.label1_S.Name = "label1_S";
-            this.label1_S.Size = new System.Drawing.Size(80, 13);
-            this.label1_S.TabIndex = 1;
-            this.label1_S.Text = "Введите текст";
-            // 
-            // ButtonSkitala
-            // 
-            this.ButtonSkitala.Location = new System.Drawing.Point(108, 136);
-            this.ButtonSkitala.Name = "ButtonSkitala";
-            this.ButtonSkitala.Size = new System.Drawing.Size(75, 23);
-            this.ButtonSkitala.TabIndex = 2;
-            this.ButtonSkitala.Text = "Выполнить";
-            this.ButtonSkitala.UseVisualStyleBackColor = true;
-            this.ButtonSkitala.Click += new System.EventHandler(this.ButtonSkitala_Click);
-            // 
-            // output_S
-            // 
-            this.output_S.Location = new System.Drawing.Point(78, 196);
-            this.output_S.Name = "output_S";
-            this.output_S.Size = new System.Drawing.Size(132, 20);
-            this.output_S.TabIndex = 3;
-            // 
-            // label3_S
-            // 
-            this.label3_S.AutoSize = true;
-            this.label3_S.Location = new System.Drawing.Point(78, 176);
-            this.label3_S.Name = "label3_S";
-            this.label3_S.Size = new System.Drawing.Size(59, 13);
-            this.label3_S.TabIndex = 4;
-            this.label3_S.Text = "Результат";
-            // 
-            // checkBox_S
-            // 
-            this.checkBox_S.AutoSize = true;
-            this.checkBox_S.Location = new System.Drawing.Point(78, 236);
-            this.checkBox_S.Name = "checkBox_S";
-            this.checkBox_S.Size = new System.Drawing.Size(102, 17);
-            this.checkBox_S.TabIndex = 5;
-            this.checkBox_S.Text = "Расшифровать";
-            this.checkBox_S.UseVisualStyleBackColor = true;
-            // 
-            // label2_S
-            // 
-            this.label2_S.AutoSize = true;
-            this.label2_S.Location = new System.Drawing.Point(78, 76);
-            this.label2_S.Name = "label2_S";
-            this.label2_S.Size = new System.Drawing.Size(123, 13);
-            this.label2_S.TabIndex = 7;
-            this.label2_S.Text = "Введите ключ (ширину)";
-            // 
-            // key_S
-            // 
-            this.key_S.Location = new System.Drawing.Point(78, 96);
-            this.key_S.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.key_S.Name = "key_S";
-            this.key_S.Size = new System.Drawing.Size(120, 20);
-            this.key_S.TabIndex = 8;
-            this.key_S.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            // 
             // CryptoApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -352,16 +352,18 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(328, 322);
             this.Controls.Add(this.tabControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "CryptoApp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CryptoApp";
             this.tabControl1.ResumeLayout(false);
             this.TabSkitala.ResumeLayout(false);
             this.TabSkitala.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.key_S)).EndInit();
             this.TabPolybius.ResumeLayout(false);
             this.TabPolybius.PerformLayout();
             this.TabGronsfeld.ResumeLayout(false);
             this.TabGronsfeld.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.key_S)).EndInit();
             this.ResumeLayout(false);
 
         }
