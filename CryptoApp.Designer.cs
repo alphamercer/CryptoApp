@@ -65,8 +65,8 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.TabSkitala);
             this.tabControl1.Controls.Add(this.TabPolybius);
@@ -142,7 +142,6 @@
             // 
             // output_S
             // 
-            this.output_S.Enabled = false;
             this.output_S.Location = new System.Drawing.Point(78, 196);
             this.output_S.Name = "output_S";
             this.output_S.ReadOnly = true;
